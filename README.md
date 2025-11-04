@@ -1,6 +1,7 @@
 # Latihan-UKL-Mudah-1
 
 bagian 1:
+
  //input data
         Scanner input = new Scanner(System.in);
         System.out.println("----- Program Ekspedisi -----");
@@ -17,6 +18,7 @@ bagian 1:
 pada bagian tersebut user diminta untuk memasukkan berat paket, jarak tempuh, panjang, lebar, tinggi paket.
 
 
+
 bagian 2:
 //hitung biaya berat
         double biayaBerat;
@@ -25,7 +27,10 @@ bagian 2:
         } else {
             biayaBerat = beratPaket*6000;
         }
+         
 pada bagian tersebut program menghitung biaya paket berdasarkan beratnya, dengan kondisi jika jarak tempuhnya <= 10km dikenakan biaya 4250/kg. dan jika lebih dari 10km akan dikenakan biaya 6000/kg
+
+
 
 bagian 3:
 //hitung volume paket
@@ -36,12 +41,18 @@ bagian 3:
         } else {
             biayaVolume = 0;
         }
+        
 program menghitung volume dengan rumus p*l*t, dengan nilai yang telah di input pengguna. dengan kondisi jika lebih dari 100cm3 akan dikenakan biaya 50000, jika tidak maka 0 biaya.
+
+
 
 bagian 4:
 //hitung total biaya
         double total = biayaBerat + biayaVolume;
+        
 program menghitung total biaya yang harus dibayar, yaitu dengan menghitung biaya paket berdasarkan beratnya + biaya volume
+
+
 
 bagian 5:
  //menampilkan output
