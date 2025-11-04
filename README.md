@@ -2,7 +2,6 @@
 
 bagian 1:
 
- //input data
         Scanner input = new Scanner(System.in);
         System.out.println("----- Program Ekspedisi -----");
         System.out.println("Masukkan berat paket (kg): ");
@@ -22,7 +21,7 @@ pada bagian tersebut user diminta untuk memasukkan berat paket, jarak tempuh, pa
 
 bagian 2:
 
-//hitung biaya berat
+
         double biayaBerat;
         if (jarakTempuh <=10) {
             biayaBerat = beratPaket*4250;
@@ -36,7 +35,7 @@ pada bagian tersebut program menghitung biaya paket berdasarkan beratnya, dengan
 
 bagian 3:
 
-//hitung volume paket
+
         double volume = panjangPaket*lebarPaket*tinggiPaket;
         double biayaVolume;
         if (volume >100) {
@@ -51,7 +50,6 @@ program menghitung volume dengan rumus p*l*t, dengan nilai yang telah di input p
 
 bagian 4:
 
-//hitung total biaya
         double total = biayaBerat + biayaVolume;
         
 program menghitung total biaya yang harus dibayar, yaitu dengan menghitung biaya paket berdasarkan beratnya + biaya volume
@@ -60,11 +58,10 @@ program menghitung total biaya yang harus dibayar, yaitu dengan menghitung biaya
 
 bagian 5:
 
- //menampilkan output
+
         System.out.println("===========================================");
         System.out.println("Total biaya pengiriman adalah : Rp"+ total);
     }
-}
 
 program mengeluarkan output berupa total biaya yang harus dibayar.
 
