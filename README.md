@@ -15,11 +15,13 @@ bagian 1:
         double lebarPaket = input.nextDouble();
         System.out.println("Masukkan tinggi paket (cm): ");
         double tinggiPaket = input.nextDouble();
+        
 pada bagian tersebut user diminta untuk memasukkan berat paket, jarak tempuh, panjang, lebar, tinggi paket.
 
 
 
 bagian 2:
+
 //hitung biaya berat
         double biayaBerat;
         if (jarakTempuh <=10) {
@@ -33,6 +35,7 @@ pada bagian tersebut program menghitung biaya paket berdasarkan beratnya, dengan
 
 
 bagian 3:
+
 //hitung volume paket
         double volume = panjangPaket*lebarPaket*tinggiPaket;
         double biayaVolume;
@@ -47,6 +50,7 @@ program menghitung volume dengan rumus p*l*t, dengan nilai yang telah di input p
 
 
 bagian 4:
+
 //hitung total biaya
         double total = biayaBerat + biayaVolume;
         
@@ -55,14 +59,18 @@ program menghitung total biaya yang harus dibayar, yaitu dengan menghitung biaya
 
 
 bagian 5:
+
  //menampilkan output
         System.out.println("===========================================");
         System.out.println("Total biaya pengiriman adalah : Rp"+ total);
-
     }
 }
 
-program mengeluarkan output berupa total biaya yang harus dibayar
+program mengeluarkan output berupa total biaya yang harus dibayar.
+
+
+
+Screenshot hasil program:
 
 <img width="1919" height="1017" alt="Cuplikan layar 2025-11-04 121055" src="https://github.com/user-attachments/assets/f0da127d-075c-441d-9f7e-14eee716a9ad" />
 
